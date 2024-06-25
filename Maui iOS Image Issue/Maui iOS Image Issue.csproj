@@ -58,16 +58,19 @@
 
 	<ItemGroup>
 	  <None Remove="Images\loading.svg" />
+	  <None Remove="Images\loading2.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiImage Include="Images\loading.svg" />
+	  <EmbeddedResource Include="Images\loading2.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
 	</ItemGroup>
 
 </Project>
