@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Maui iOS Image Issue/bin/Debug
+/Maui iOS Image Issue/obj
